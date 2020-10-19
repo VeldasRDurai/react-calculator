@@ -1,0 +1,27 @@
+const clk = [
+  { print: "", key: 15, id: "m", value: "M" },
+  { print: "", key: 16, id: "mplus", value: "M+" },
+  { print: "", key: 17, id: "mminus", value: "M-" },
+  { print: "", key: 18, id: "plusorminus", value: "+/-" },
+  { print: "", key: 19, id: "ac", value: "AC" },
+  { print: "7", key: 7, id: "7", value: "7" },
+  { print: "8", key: 8, id: "8", value: "8" },
+  { print: "9", key: 9, id: "9", value: "9" },
+  { print: "%", key: 20, id: "percentage", value: "%" },
+  { print: "", key: 21, id: "ce", value: "CE" },
+  { print: "4", key: 4, id: "4", value: "4" },
+  { print: "5", key: 5, id: "5", value: "5" },
+  { print: "6", key: 6, id: "6", value: "6" },
+  { print: "X", key: 13, id: "multiplication", value: "X" },
+  { print: "/", key: 14, id: "division", value: "/" },
+  { print: "1", key: 1, id: "1", value: "1" },
+  { print: "2", key: 2, id: "2", value: "2" },
+  { print: "3", key: 3, id: "3", value: "3" },
+  { print: "+", key: 11, id: "addition", value: "+" },
+  { print: "-", key: 12, id: "subtraction", value: "-" },
+  { print: "0", key: 0, id: "0", value: "0" },
+  { print: "00", key: 10, id: "00", value: "00" },
+  { print: ".", key: 23, id: "point", value: "." },
+  { print: "=", key: 22, id: "equal", value: "=" }
+];
+export default clk;

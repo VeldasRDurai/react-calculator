@@ -1,0 +1,71 @@
+body {
+  background-color: whitesmoke;
+}
+.clsapp {
+  width: 250px;
+  margin: auto;
+  /* border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-width: 2px;
+  border-style: outset; */
+
+  border-radius: 10px;
+
+  background-color: #4f4f4f;
+}
+.clsdisplay {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.clsdisplay > input {
+  height: 41px;
+  width: 230px;
+  margin: auto;
+  border: 1px solid #12232e;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: block;
+  box-shadow: 0 0 6px #12232e inset;
+  background-color: #d1e6a8;
+  overflow: auto;
+}
+.clskeypad {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: 40px 40px 40px 40px 40px;
+  grid-template-rows: 40px 40px 40px 40px 40px 8px;
+  justify-content: center;
+}
+.clskey {
+  background-color: #828282;
+  color: white;
+  border-radius: 4px;
+}
+#idaddition {
+  grid-area: 4/4/6/5;
+}
+#idm,
+#idmplus,
+#idmminus,
+#idplusorminus {
+  background-color: black;
+}
+#idac,
+#idequal,
+#idce {
+  background-color: #bf3744;
+}
+#idaddition,
+#idsubtraction,
+#iddivision,
+#idmultiplication,
+#idpercentage {
+  background-color: #238090;
+}
+.clskey:hover {
+  border-width: 4px;
+}
+.clskey:focus {
+  border: none;
+  outline: none;
+  opacity: 0.8;
+}
